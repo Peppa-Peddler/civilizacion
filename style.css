@@ -26,6 +26,12 @@ body{
     padding-bottom: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+    .portada{
+        padding: 20px;
+    }
+}
+
 h1{
     font-weight: 400;
     text-align: center;
@@ -34,8 +40,21 @@ h1{
     margin-bottom: 0px;
 }
 
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
 .artists{
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        padding: 0px 20px;
+    }
 }
 
 .date{
@@ -61,6 +80,12 @@ h1{
     line-height: 1.45;
 }
 
+@media only screen and (max-width: 600px) {
+    .curatorial-text{
+        padding: 0px 20px;
+    }
+}
+
 .right{
     text-align: right;
 }
@@ -69,6 +94,12 @@ h1{
     max-width: 400px;
     margin: 0 auto;
     line-height: 1.45;
+}
+
+@media only screen and (max-width: 600px) {
+    .comment{
+        padding: 0px 20px;
+    }
 }
 
 .mtop{
