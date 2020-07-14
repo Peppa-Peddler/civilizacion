@@ -1,13 +1,75 @@
+@font-face {
+  font-family: 'Sdr';
+  src: url(fonts/sdr.woff2);
+}
+
+@font-face {
+  font-family: 'Agr';
+  src: url(fonts/agr.woff2);
+}
+
 *{
     box-sizing: border-box;
 }
 
 html, body{
     margin: 0px;
+    font-family: 'Agr';
 }
 
 body{
     background: #E3DBC9;
+}
+
+.portada{
+    padding: 140px;
+    padding-bottom: 30px;
+}
+
+h1{
+    font-weight: 400;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Sdr';
+    margin-bottom: 0px;
+}
+
+.artists{
+    text-align: center;
+}
+
+.date{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.alpha{
+    float: left;
+    font-size: 84px;
+    font-family: 'Sdr';
+    margin-bottom: -20px;
+    margin-top: -15px;
+    margin-right: 12px;
+}
+
+.curatorial-text{
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 100px;
+    line-height: 1.45;
+}
+
+.right{
+    text-align: right;
+}
+
+.comment{
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.45;
+    margin-bottom: 130px;
 }
 
 .section{
@@ -72,6 +134,8 @@ img{
 
 .text{
     margin-top: 120px;
+    text-align: left;
+    line-height: 1.47;
 }
 
 .centered{
